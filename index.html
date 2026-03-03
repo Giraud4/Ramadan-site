@@ -13,15 +13,11 @@ body {
     text-align: center;
 }
 .hero {
-    padding: 60px 20px;
+    padding: 70px 20px;
     background: linear-gradient(to bottom, #f3e5d8, #ffffff);
 }
-h1 {
-    font-size: 40px;
-}
-.section {
-    padding: 40px 20px;
-}
+h1 { font-size: 38px; }
+.section { padding: 50px 20px; }
 .button {
     display: inline-block;
     margin-top: 20px;
@@ -32,24 +28,28 @@ h1 {
     border-radius: 8px;
     font-weight: bold;
 }
-.button:hover {
-    background-color: #a67c2d;
-}
-.benefits {
+.button:hover { background-color: #a67c2d; }
+.grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 25px;
 }
 .card {
     background: white;
-    padding: 20px;
+    padding: 25px;
     border-radius: 10px;
-    width: 250px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    width: 260px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+.badge {
+    background: #e8c36a;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
 }
 .footer {
-    padding: 20px;
+    padding: 25px;
     background: #eee;
     font-size: 14px;
 }
@@ -59,41 +59,74 @@ h1 {
 
 <div class="hero">
     <h1>Tout pour un Ramadan plus serein et organisé</h1>
-    <p>Des sélections utiles, des coffrets spirituels et des idées cadeaux pensées pour vivre un mois de paix et de générosité.</p>
-    <a href="#" class="button">Découvrir la sélection</a>
+    <p>Spiritualité, famille, générosité et beauté. Des sélections pensées pour vivre Ramadan avec intention.</p>
+    <a href="#" class="button">Voir la sélection</a>
 </div>
 
 <div class="section">
-    <div class="benefits">
+    <h2>Pourquoi nous faire confiance ?</h2>
+    <div class="grid">
         <div class="card">
             <h3>Gain de temps</h3>
-            <p>Des idées déjà sélectionnées pour éviter des heures de recherche.</p>
+            <p>Des produits déjà sélectionnés pour éviter des heures de recherche.</p>
         </div>
         <div class="card">
             <h3>Idées prêtes</h3>
-            <p>Coffrets, tenues et décorations adaptées à Ramadan et Eid.</p>
+            <p>Coffrets et cadeaux déjà pensés pour Ramadan et Eid.</p>
         </div>
         <div class="card">
             <h3>Sélections fiables</h3>
-            <p>Produits choisis pour leur utilité et leur qualité.</p>
+            <p>Top choix et meilleures ventes appréciées par les familles.</p>
         </div>
     </div>
 </div>
 
 <div class="section">
-    <h2>Nos Sélections Ramadan</h2>
-    <p>Tenues élégantes • Coffrets spirituels • Parfums orientaux • Décorations Ramadan</p>
-    <a href="#" class="button">Voir les idées cadeaux</a>
+    <h2>Nos Sous-Niches Ramadan</h2>
+    <div class="grid">
+        <div class="card">
+            <span class="badge">Top Choix</span>
+            <h3>Tenues Élégantes</h3>
+            <p>Abaya, qamis, vêtements pour les soirées d’iftar et Eid.</p>
+            <a href="#" class="button">Découvrir</a>
+        </div>
+
+        <div class="card">
+            <span class="badge">Meilleures ventes</span>
+            <h3>Coffrets & Cadeaux</h3>
+            <p>Idées prêtes à offrir pour surprendre vos proches.</p>
+            <a href="#" class="button">Offrir</a>
+        </div>
+
+        <div class="card">
+            <h3>Parfums Orientaux</h3>
+            <p>Fragrances sans alcool pour une élégance raffinée.</p>
+            <a href="#" class="button">Voir la sélection</a>
+        </div>
+
+        <div class="card">
+            <h3>Décorations Ramadan</h3>
+            <p>Créer une ambiance chaleureuse et spirituelle à la maison.</p>
+            <a href="#" class="button">Découvrir</a>
+        </div>
+    </div>
 </div>
 
 <div class="section">
-    <h2>Ramadan est un moment pour se recentrer et partager</h2>
-    <p>Nous avons réuni des sélections pensées pour accompagner chaque instant important.</p>
+    <h2>Ce que disent nos visiteurs</h2>
+    <p>"Grâce à ce site, j’ai trouvé un coffret parfait pour Eid en quelques minutes." – Avis client</p>
+    <p>"Simple, inspirant et pratique." – Utilisateur satisfait</p>
     <a href="#" class="button">Préparer mon Ramadan</a>
 </div>
 
+<div class="section">
+    <h2>Ramadan n’est pas qu’un mois.</h2>
+    <p>C’est un moment pour se recentrer, partager et préparer son cœur. Chaque choix compte.</p>
+    <a href="#" class="button">Découvrir les idées</a>
+</div>
+
 <div class="footer">
-© 2026 Ramadan Sélections – Inspirer, Partager, Offrir
+© 2026 Ramadan Sélections – Inspirer • Partager • Offrir
 </div>
 
 </body>
